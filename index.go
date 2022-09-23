@@ -3,9 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	var st string = "Hello"
-	var st2 string = "Go"
-
-	fmt.Println(st + " " + st2)
-
+	var name string
+	var age int
+	fmt.Println("Write your name: ")
+	fmt.Scanf("%s\n", &name)
+	fmt.Println("Write you age: ")
+	fmt.Scanf("%d\n", &age)
+	fmt.Printf("Your name is %s, your age is %d", name, age)
 }
